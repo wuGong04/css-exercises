@@ -1,0 +1,19 @@
+p:nth-child(odd) {
+    background: rgb(247, 174, 161);
+    font-family: Verdana, sans-serif;
+}
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+.coolerClass {
+    font-size: 24px;
+}
+
+#four {
+    color: black;
+    background-color: chartreuse;
+    font-weight: bolder; 
+    font-size: 24px;
+}
