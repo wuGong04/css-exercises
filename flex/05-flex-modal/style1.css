@@ -66,31 +66,30 @@ button.cancel {
 }
 
 .modal{
-  padding: 15px;
-}
-.warning{
   display: flex;
-  align-items: center;
+  border-style: dotted;
+  gap: 16px;
+  padding: 16px; 
+
 }
 
+.icon{
+    flex-shrink: 0;
+}
 .header{
-  margin: 10px 5px;
-  font-size: 19px;
-  font-weight: bold;
-  /* border-style: dotted; */
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
-.close-button{
-  margin-left: auto;
+.container{
+  justify-items: center;
+  
 }
 
-.text {
-  margin-left: 45px;
-  padding: 10px 5px;
- 
-  /* border-style: dotted; */
-}
-
-.buttons {
-  margin-left: 45px; 
+.text{
+  margin-bottom: 16px;
 }
